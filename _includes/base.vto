@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#f169c12">
+  <link rel="stylesheet" href="/style.css">
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEhEQAFRFNwCF1tUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQEQEQEQAAABABABABAAAAEAEAEAEBAAAREREREQEAABERERERAQAAEREREREBAAAREREREQEAABEREREREQABEREAAAAAAAEyMQAAAAAAASMhAAAAAAABEREAAAAAAAEAAQAAAAAAAQABEAAAAAABEAAAAAAAD//wAAyScAAO23AADttQAA4AUAAOAFAADgBQAA4AUAAOABAADB/wAAwf8AAMH/AADB/wAA3f8AANz/AADP/wAA"
+    rel="icon" type="image/x-icon">
+  <link rel="canonical" href="{{ url |> url(true) }}">
+  <meta property="og:image" href="{{ url |> url(true) }}{{image}}">
+</head>
+<body>
+  <main>
+    <article>
+      {{ content }}
+    </article>
+  </main>
+</body>
+</html>
