@@ -1,4 +1,4 @@
-name: Publish on GitHub Pages Update
+name: Publish on GitHub Pages
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
 
   steps:
     - name: Clone repository
-    uses: actions/checkout@v3
+    uses: actions/checkout@v4
 
     - name: Setup Deno environment
     uses: denoland/setup-deno@v1
