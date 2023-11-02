@@ -15,5 +15,6 @@ site.use(lightningCss());
 site.use(sitemap());
 
 site.copy("og.jpg");
+site.copy("style.css);
 
 export default site;
