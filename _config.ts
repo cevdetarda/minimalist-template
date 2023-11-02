@@ -14,4 +14,6 @@ site.use(minifyHTML());
 site.use(lightningCss());
 site.use(sitemap());
 
+site.copy("og.jpg");
+
 export default site;
