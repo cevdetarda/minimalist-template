@@ -4,7 +4,7 @@ import lightningCss from "lume/plugins/lightningcss.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 
 const site = lume({
-  location: new URL("https://cevdetarda.github.io/minimalist-template/"),
+    location: new URL("https://minimalist-template.pages.dev"),
 });
 
 import vento from "lume/plugins/vento.ts";
