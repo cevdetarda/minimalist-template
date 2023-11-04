@@ -12,11 +12,12 @@
     href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEhEQAFRFNwCF1tUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQEQEQEQAAABABABABAAAAEAEAEAEBAAAREREREQEAABERERERAQAAEREREREBAAAREREREQEAABEREREREQABEREAAAAAAAEyMQAAAAAAASMhAAAAAAABEREAAAAAAAEAAQAAAAAAAQABEAAAAAABEAAAAAAAD//wAAyScAAO23AADttQAA4AUAAOAFAADgBQAA4AUAAOABAADB/wAAwf8AAMH/AADB/wAA3f8AANz/AADP/wAA"
     rel="icon" type="image/x-icon">
   <link rel="canonical" href="{{ url |> url(true) }}">
-  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:url" content="{{ url |> url(true) }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
   <meta property="og:image" content="{{ url |> url(true) }}{{image}}">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <main>
